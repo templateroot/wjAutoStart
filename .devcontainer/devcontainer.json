@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  },
+  "postCreateCommand": "chmod +x /workspaces/${RepositoryName}/myStart",
+  "postStartCommand": "nohup bash -c '/workspaces/${RepositoryName}/myStart &'"
+}
